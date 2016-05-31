@@ -77,6 +77,7 @@
 		6D1124441CFE261C00B66B1B /* MeteoX */ = {
 			isa = PBXGroup;
 			children = (
+				6D1124651CFE300900B66B1B /* Models */,
 				6D11245C1CFE284700B66B1B /* Network Layer */,
 				6D1124481CFE261C00B66B1B /* AppDelegate.h */,
 				6D1124491CFE261C00B66B1B /* AppDelegate.m */,
@@ -107,6 +108,13 @@
 				6D1124641CFE2EDA00B66B1B /* MXNetworkConstants.h */,
 			);
 			name = "Network Layer";
+			sourceTree = "<group>";
+		};
+		6D1124651CFE300900B66B1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		CA41953A146379CCBB48179F /* Pods */ = {
