@@ -1,762 +1,401 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>14E80C3E928AC82AED96BE6C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>373222AA4FBE5AD4194D05FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>346A7638EE7E407FFD81FE9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>373222AA4FBE5AD4194D05FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>373222AA4FBE5AD4194D05FD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MeteoX.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6CCE08AC75B60934C050BCE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6D1124391CFE261B00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D1124441CFE261C00B66B1B</string>
-				<string>6D1124431CFE261C00B66B1B</string>
-				<string>CA41953A146379CCBB48179F</string>
-				<string>14E80C3E928AC82AED96BE6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D11243A1CFE261B00B66B1B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>PavloDumyak</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>6D1124411CFE261C00B66B1B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>6D11243D1CFE261B00B66B1B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>6D1124391CFE261B00B66B1B</string>
-			<key>productRefGroup</key>
-			<string>6D1124431CFE261C00B66B1B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>6D1124411CFE261C00B66B1B</string>
-			</array>
-		</dict>
-		<key>6D11243D1CFE261B00B66B1B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6D1124571CFE261C00B66B1B</string>
-				<string>6D1124581CFE261C00B66B1B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6D11243E1CFE261C00B66B1B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6D11244D1CFE261C00B66B1B</string>
-				<string>6D11244A1CFE261C00B66B1B</string>
-				<string>6D1124471CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6D11243F1CFE261C00B66B1B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>346A7638EE7E407FFD81FE9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6D1124401CFE261C00B66B1B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6D1124551CFE261C00B66B1B</string>
-				<string>6D1124521CFE261C00B66B1B</string>
-				<string>6D1124501CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6D1124411CFE261C00B66B1B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6D1124591CFE261C00B66B1B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6CCE08AC75B60934C050BCE2</string>
-				<string>6D11243E1CFE261C00B66B1B</string>
-				<string>6D11243F1CFE261C00B66B1B</string>
-				<string>6D1124401CFE261C00B66B1B</string>
-				<string>97978A4609F1FBDCC053A0AB</string>
-				<string>8E088E4DAAF284E164459979</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MeteoX</string>
-			<key>productName</key>
-			<string>MeteoX</string>
-			<key>productReference</key>
-			<string>6D1124421CFE261C00B66B1B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>6D1124421CFE261C00B66B1B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MeteoX.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6D1124431CFE261C00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D1124421CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124441CFE261C00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D1124481CFE261C00B66B1B</string>
-				<string>6D1124491CFE261C00B66B1B</string>
-				<string>6D11244B1CFE261C00B66B1B</string>
-				<string>6D11244C1CFE261C00B66B1B</string>
-				<string>6D11244E1CFE261C00B66B1B</string>
-				<string>6D1124511CFE261C00B66B1B</string>
-				<string>6D1124531CFE261C00B66B1B</string>
-				<string>6D1124561CFE261C00B66B1B</string>
-				<string>6D1124451CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MeteoX</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124451CFE261C00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D1124461CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124461CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124471CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D1124461CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D1124481CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124491CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D11244A1CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D1124491CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D11244B1CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D11244C1CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D11244D1CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D11244C1CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D11244E1CFE261C00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D11244F1CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D11244F1CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124501CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D11244E1CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D1124511CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124521CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D1124511CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D1124531CFE261C00B66B1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D1124541CFE261C00B66B1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124541CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124551CFE261C00B66B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D1124531CFE261C00B66B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D1124561CFE261C00B66B1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D1124571CFE261C00B66B1B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6D1124581CFE261C00B66B1B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6D1124591CFE261C00B66B1B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6D11245A1CFE261C00B66B1B</string>
-				<string>6D11245B1CFE261C00B66B1B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6D11245A1CFE261C00B66B1B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F884E2753E98E8F808E8419E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MeteoX/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>perelesnyk.MeteoX</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6D11245B1CFE261C00B66B1B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AF113CE4F53482C60DC364BB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MeteoX/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>perelesnyk.MeteoX</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8E088E4DAAF284E164459979</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>97978A4609F1FBDCC053A0AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AF113CE4F53482C60DC364BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-MeteoX.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA41953A146379CCBB48179F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F884E2753E98E8F808E8419E</string>
-				<string>AF113CE4F53482C60DC364BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F884E2753E98E8F808E8419E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-MeteoX.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>6D11243A1CFE261B00B66B1B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346A7638EE7E407FFD81FE9B /* libPods-MeteoX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 373222AA4FBE5AD4194D05FD /* libPods-MeteoX.a */; };
+		6D1124471CFE261C00B66B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1124461CFE261C00B66B1B /* main.m */; };
+		6D11244A1CFE261C00B66B1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1124491CFE261C00B66B1B /* AppDelegate.m */; };
+		6D11244D1CFE261C00B66B1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11244C1CFE261C00B66B1B /* ViewController.m */; };
+		6D1124501CFE261C00B66B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D11244E1CFE261C00B66B1B /* Main.storyboard */; };
+		6D1124521CFE261C00B66B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1124511CFE261C00B66B1B /* Assets.xcassets */; };
+		6D1124551CFE261C00B66B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1124531CFE261C00B66B1B /* LaunchScreen.storyboard */; };
+		6D1124631CFE2EBE00B66B1B /* MXHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1124621CFE2EBE00B66B1B /* MXHttpRequestManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		373222AA4FBE5AD4194D05FD /* libPods-MeteoX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeteoX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1124421CFE261C00B66B1B /* MeteoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1124461CFE261C00B66B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D1124481CFE261C00B66B1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D1124491CFE261C00B66B1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D11244B1CFE261C00B66B1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D11244C1CFE261C00B66B1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D11244F1CFE261C00B66B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D1124511CFE261C00B66B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D1124541CFE261C00B66B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D1124561CFE261C00B66B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1124611CFE2EBE00B66B1B /* MXHttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXHttpRequestManager.h; path = "Network Layer/MXHttpRequestManager.h"; sourceTree = "<group>"; };
+		6D1124621CFE2EBE00B66B1B /* MXHttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXHttpRequestManager.m; path = "Network Layer/MXHttpRequestManager.m"; sourceTree = "<group>"; };
+		6D1124641CFE2EDA00B66B1B /* MXNetworkConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXNetworkConstants.h; path = "Network Layer/MXNetworkConstants.h"; sourceTree = "<group>"; };
+		AF113CE4F53482C60DC364BB /* Pods-MeteoX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX.release.xcconfig"; sourceTree = "<group>"; };
+		F884E2753E98E8F808E8419E /* Pods-MeteoX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteoX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D11243F1CFE261C00B66B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346A7638EE7E407FFD81FE9B /* libPods-MeteoX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E80C3E928AC82AED96BE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				373222AA4FBE5AD4194D05FD /* libPods-MeteoX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D1124391CFE261B00B66B1B = {
+			isa = PBXGroup;
+			children = (
+				6D1124441CFE261C00B66B1B /* MeteoX */,
+				6D1124431CFE261C00B66B1B /* Products */,
+				CA41953A146379CCBB48179F /* Pods */,
+				14E80C3E928AC82AED96BE6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D1124431CFE261C00B66B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D1124421CFE261C00B66B1B /* MeteoX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1124441CFE261C00B66B1B /* MeteoX */ = {
+			isa = PBXGroup;
+			children = (
+				6D11245C1CFE284700B66B1B /* Network Layer */,
+				6D1124481CFE261C00B66B1B /* AppDelegate.h */,
+				6D1124491CFE261C00B66B1B /* AppDelegate.m */,
+				6D11244B1CFE261C00B66B1B /* ViewController.h */,
+				6D11244C1CFE261C00B66B1B /* ViewController.m */,
+				6D11244E1CFE261C00B66B1B /* Main.storyboard */,
+				6D1124511CFE261C00B66B1B /* Assets.xcassets */,
+				6D1124531CFE261C00B66B1B /* LaunchScreen.storyboard */,
+				6D1124561CFE261C00B66B1B /* Info.plist */,
+				6D1124451CFE261C00B66B1B /* Supporting Files */,
+			);
+			path = MeteoX;
+			sourceTree = "<group>";
+		};
+		6D1124451CFE261C00B66B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1124461CFE261C00B66B1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D11245C1CFE284700B66B1B /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				6D1124611CFE2EBE00B66B1B /* MXHttpRequestManager.h */,
+				6D1124621CFE2EBE00B66B1B /* MXHttpRequestManager.m */,
+				6D1124641CFE2EDA00B66B1B /* MXNetworkConstants.h */,
+			);
+			name = "Network Layer";
+			sourceTree = "<group>";
+		};
+		CA41953A146379CCBB48179F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F884E2753E98E8F808E8419E /* Pods-MeteoX.debug.xcconfig */,
+				AF113CE4F53482C60DC364BB /* Pods-MeteoX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D1124411CFE261C00B66B1B /* MeteoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1124591CFE261C00B66B1B /* Build configuration list for PBXNativeTarget "MeteoX" */;
+			buildPhases = (
+				6CCE08AC75B60934C050BCE2 /* Check Pods Manifest.lock */,
+				6D11243E1CFE261C00B66B1B /* Sources */,
+				6D11243F1CFE261C00B66B1B /* Frameworks */,
+				6D1124401CFE261C00B66B1B /* Resources */,
+				97978A4609F1FBDCC053A0AB /* Embed Pods Frameworks */,
+				8E088E4DAAF284E164459979 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeteoX;
+			productName = MeteoX;
+			productReference = 6D1124421CFE261C00B66B1B /* MeteoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D11243A1CFE261B00B66B1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PavloDumyak;
+				TargetAttributes = {
+					6D1124411CFE261C00B66B1B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D11243D1CFE261B00B66B1B /* Build configuration list for PBXProject "MeteoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D1124391CFE261B00B66B1B;
+			productRefGroup = 6D1124431CFE261C00B66B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D1124411CFE261C00B66B1B /* MeteoX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D1124401CFE261C00B66B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1124551CFE261C00B66B1B /* LaunchScreen.storyboard in Resources */,
+				6D1124521CFE261C00B66B1B /* Assets.xcassets in Resources */,
+				6D1124501CFE261C00B66B1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CCE08AC75B60934C050BCE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E088E4DAAF284E164459979 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97978A4609F1FBDCC053A0AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeteoX/Pods-MeteoX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D11243E1CFE261C00B66B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D11244D1CFE261C00B66B1B /* ViewController.m in Sources */,
+				6D11244A1CFE261C00B66B1B /* AppDelegate.m in Sources */,
+				6D1124631CFE2EBE00B66B1B /* MXHttpRequestManager.m in Sources */,
+				6D1124471CFE261C00B66B1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D11244E1CFE261C00B66B1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D11244F1CFE261C00B66B1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D1124531CFE261C00B66B1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D1124541CFE261C00B66B1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D1124571CFE261C00B66B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D1124581CFE261C00B66B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D11245A1CFE261C00B66B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F884E2753E98E8F808E8419E /* Pods-MeteoX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeteoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perelesnyk.MeteoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D11245B1CFE261C00B66B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF113CE4F53482C60DC364BB /* Pods-MeteoX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeteoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perelesnyk.MeteoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D11243D1CFE261B00B66B1B /* Build configuration list for PBXProject "MeteoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1124571CFE261C00B66B1B /* Debug */,
+				6D1124581CFE261C00B66B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1124591CFE261C00B66B1B /* Build configuration list for PBXNativeTarget "MeteoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D11245A1CFE261C00B66B1B /* Debug */,
+				6D11245B1CFE261C00B66B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D11243A1CFE261B00B66B1B /* Project object */;
+}
