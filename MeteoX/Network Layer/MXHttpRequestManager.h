@@ -22,12 +22,12 @@ typedef void (^HttpRequestFailHandler)(NSURLSessionDataTask *_Nullable task, NSE
 
 @interface MXHttpRequestManager : NSObject
 
-@property (nonatomic, copy) NSString *link;
-@property (nonatomic, assign) HttpRequestType type;
-@property (nonatomic, strong) NSDictionary *params;
-@property (nonatomic, strong) NSString *tokenType;
-@property (nonatomic, copy, nullable) HttpRequestSuccessHandler httpRequestSuccessHandler;
-@property (nonatomic, copy, nullable) HttpRequestFailHandler httpRequestFailHandler;
+@property(nonatomic, copy) NSString *link;
+@property(nonatomic, assign) HttpRequestType type;
+@property(nonatomic, strong) NSDictionary *params;
+@property(nonatomic, strong) NSString *tokenType;
+@property(nonatomic, copy, nullable) HttpRequestSuccessHandler httpRequestSuccessHandler;
+@property(nonatomic, copy, nullable) HttpRequestFailHandler httpRequestFailHandler;
 
 - (instancetype)initWithLink:(NSString *)link;
 - (instancetype)initWithLink:(NSString *)link ofType:(HttpRequestType)type withParams:(nullable NSDictionary *)params;

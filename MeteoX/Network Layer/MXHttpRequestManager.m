@@ -12,7 +12,7 @@
 
 @interface MXHttpRequestManager ()
 
-@property (nonatomic, strong) AFHTTPSessionManager *httpManager;
+@property(nonatomic, strong) AFHTTPSessionManager *httpManager;
 
 @end
 
