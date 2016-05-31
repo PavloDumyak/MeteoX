@@ -13,7 +13,7 @@
 
 @property(nonatomic, assign) NSInteger id;
 @property(nonatomic, strong) NSString *main;
-@property(nonatomic, strong) NSString *description;
+@property(nonatomic, strong) NSString *detail;
 @property(nonatomic, strong) NSString *icon;
 
 @end

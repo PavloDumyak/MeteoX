@@ -13,7 +13,7 @@
 
 @property(nonatomic, assign) double temp;
 @property(nonatomic, assign) double pressure;
-@property(nonatomic, assign) double  humidity;
+@property(nonatomic, assign) double humidity;
 @property(nonatomic, assign) double temp_min;
 @property(nonatomic, assign) double temp_max;
 

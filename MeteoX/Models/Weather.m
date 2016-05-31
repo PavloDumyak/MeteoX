@@ -13,7 +13,8 @@
 + (EKObjectMapping *)objectMapping
 {
     return [EKObjectMapping mappingForClass:self withBlock:^(EKObjectMapping *mapping) {
-        [mapping mapPropertiesFromArray:@[@"id",@"main",@"description", @"icon"]];
+        [mapping mapPropertiesFromArray:@[@"id",@"main", @"icon"]];
+        [mapping mapPropertiesFromDictionary:@{@"description":@"detail"}];
     }];
 }
 

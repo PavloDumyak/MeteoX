@@ -13,7 +13,7 @@
 + (EKObjectMapping *)objectMapping
 {
     return [EKObjectMapping mappingForClass:self withBlock:^(EKObjectMapping *mapping) {
-        [mapping hasOne:[Weather class] forKeyPath:@"weather"];
+        [mapping hasMany:[Weather class] forKeyPath:@"weather"];
         [mapping hasOne:[MainWeatherData class] forKeyPath:@"main"];
         [mapping mapPropertiesFromArray:@[@"name",@"id",@"code"]];
     }];

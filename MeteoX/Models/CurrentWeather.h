@@ -13,7 +13,7 @@
 
 @interface CurrentWeather : NSObject<EKMappingProtocol>
 
-@property(nonatomic, strong) Weather *weather;
+@property(nonatomic, strong) NSArray <Weather *> *weather;
 @property(nonatomic, strong) MainWeatherData *main;
 @property(nonatomic, strong) NSString *name;
 @property(nonatomic, assign) NSInteger id;
