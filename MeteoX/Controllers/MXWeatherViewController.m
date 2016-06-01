@@ -65,6 +65,7 @@
     self.skyTypeLabel.text = self.currentWeather.weather[0].detail.capitalizedString;
     self.dateArray = [MXCommon getDateForAllWeek];
     [self setupTableView];
+    self.searchBar.keyboardType = UIKeyboardTypeASCIICapable;
 }
 
 - (void)setupTableView {
