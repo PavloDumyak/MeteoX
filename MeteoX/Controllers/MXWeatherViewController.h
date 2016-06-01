@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MXWeatherViewController : UIViewController<UISearchBarDelegate>
-
+@interface MXWeatherViewController : UIViewController<UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @end
 
